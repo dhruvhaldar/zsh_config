@@ -1,5 +1,5 @@
 # zsh_config
-My customized oh-my-zsh config file with cowsay, tickr, fortune, zsh, theme.sh for changing terminal color scheme.
+My customized oh-my-zsh config file with cowsay, tickr, fortune, zsh, theme.sh for changing terminal color scheme. It displays a random animal and fortune every time a new shell is opened.
 
 ![alt text](image.png)
 
