@@ -70,10 +70,10 @@ COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -130,6 +130,6 @@ if command -v theme.sh > /dev/null; then
 	# Interactively load a dark theme
 	alias thd='theme.sh --dark -i'
 fi
-echo "1. th for theming \n2. s for sudo \n3. c for clear \n4. aquarium for Aquarium \n5. confomz to edit terminal startup \n6. bat -t for ASUS battery limit lock \n7. neofetch for about \n8. uname -r for kernel version \n9. ticker -w AAPL -i 5 for Stock Ticker \n10. rpm -q kernel to see installed kernels \n11. ser to check enabled services \n12. cointop for Crypto ticker \n13. tickrs for Stock charts
+echo "1. th for theming \n2. s for sudo \n3. c for clear \n4. aquarium for Aquarium \n5. confomz to edit terminal startup \n6. bat -t for ASUS battery limit lock \n7. neofetch for about \n8. uname -r for kernel version \n9. ticker -w AAPL -i 5 for Stock Ticker \n10. rpm -q kernel to see installed kernels \n11. ser to check enabled services \n12. cointop for Crypto ticker \n13. tickrs for Stock charts \n14. s-tui for System info
 
 "
